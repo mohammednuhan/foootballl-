@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Football Team - Home</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>Football Team</h1>
+    <nav>
+      <a href="#about">About Us</a>
+      <a href="#players">Players</a>
+      <a href="#matches">Upcoming Matches</a>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About the Team</h2>
+    <p>Welcome to the official page of the [Team Name]. Founded in [Year], we are passionate about football and dedicated to our fans.</p>
+  </section>
+
+  <!-- Players Section -->
+  <section id="players">
+    <h2>Our Players</h2>
+    <div class="player-card">
+      <h3>Player 1</h3>
+      <p>Position: Forward</p>
+    </div>
+    <div class="player-card">
+      <h3>Player 2</h3>
+      <p>Position: Midfielder</p>
+    </div>
+    <div class="player-card">
+      <h3>Player 3</h3>
+      <p>Position: Goalkeeper</p>
+    </div>
+  </section>
+
+  <!-- Upcoming Matches Section -->
+  <section id="matches">
+    <h2>Upcoming Matches</h2>
+    <ul>
+      <li>Match vs Team A - Date: MM/DD/YYYY</li>
+      <li>Match vs Team B - Date: MM/DD/YYYY</li>
+      <li>Match vs Team C - Date: MM/DD/YYYY</li>
+    </ul>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2023 [Team Name]. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
+
+CSS (styles.css)
+
+/* Reset default browser styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header styling */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+header nav a {
+  color: #fff;
+  margin: 0 1em;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Section styling */
+section {
+  padding: 2em;
+  text-align: center;
+}
+
+section#about {
+  background-color: #f4f4f4;
+}
+
+section#players {
+  background-color: #ddd;
+}
+
+.player-card {
+  margin: 1em auto;
+  padding: 1em;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 300px;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
+}
